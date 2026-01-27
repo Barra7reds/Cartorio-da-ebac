@@ -15,5 +15,7 @@ Então o sistema deve exibir a tela de checkout
 Cenário: Login no checkout mal sucedido
 Dado que o usuário esteja na página de login 
 Quando inserir o email "usuarioerrado@gmail.com" e a senha "senhaincorreta"
+E clicar no botão de "login"
 Então o sistema deve exibir uma mensagem de alerta
+
 
